@@ -1,0 +1,77 @@
+risultati topic VAE+ RNN dt= 5, batch_size = 500, ds = imdb, vacab_size = 3000, epochs = 3
+0 wagner shirley claudia approached origin deemed acid begun christensen axe mandy stunningly involvement incidentally landmark speeches deceased closet faults wiped antagonist g. millionaire mouthed enjoys freaky weaknesses mpaa bible tobey
+1 synopsis influenced battling interactions burke dujardin lively bela tender inhabitants session randy blast practice hopper medieval punk investigator superbly domino accomplished lavish mud monstrous borat minus canadian catholic subjected jarring
+2 godzilla dawson gallery healthy allan egyptian matches mentions customers bush forgetting garden relevance hangs bettany glowing ultraviolet unnerving resemblance resembles facing juliette pryor communist reeve randolph wound twins omen runtime
+3 gilliam bees unexplained bugs gilbert poverty abused fuss recommendation noon gifted item shady unintentional controlled toned scarier nonsensical binoche sanity vanessa polly boogeyman reverse aaron treadwell continually sunset trier advertising
+4 officers teach concepts mouse yesterday inability frightened seventies christ reel generations monday inappropriate hazzard heartbreaking symbolic titled conviction colleague accomplished sugar pun politicians token reliable desperation julian irving befriends establish
+
+risultati topic VAE + RNN dt= 5, batch_size = 100, ds=imdb, vocab_size=3k, epochis = 3
+0 zany soderbergh expressed rockwell lumet bella bishop penelope widow rightly sharing incomprehensible popping dancer predators relation forms invention leather irons brutally impeccable stuart continuity sterling traps secondary reluctant thoughtful specifically
+1 breasts continuity hardcore simpson sacrifice messed tobey imagined differences randomly recording appalling citizens realization icons offended clumsy wandering worn delicate symbolism immortal psychopath brendan closet supply revelations dreary profit wildly
+2 surround godzilla convenient streak addiction ya hathaway channel boot recycled tender kazan pearl exquisite gladiator flair freaks maintains scripted bette olds quinn banks letters riveting w. deadpan wendy resume creek
+3 micky teddy wretched dicky lou choosing apollo destructive sentimentality marine cody sublime fury waves deceased translation triangle wagner rave ton exorcism bateman uncover weaknesses carnage weisz unexplained revolution loneliness rousing
+4 threatens portion beats defined hire splendid primarily civilization lands valuable newcomer ominous neeson pathos checked enterprise wildly sublime forrest remade reactions bottle pushed landing mute chased corporation australia unfold straightforward
+
+risultati topic VAE + RNN dt= 5, batch_size = 50, ds=imdb, vocab_size=3k, epochis = 3
+0 borgnine stan hugo edgy reloaded lincoln possesses ladder covers difficulties broadbent phillip frightened instinct wire scattered reflection britt abused bridget epics depths rebel lon phenomenon zuckerberg lasts wrenching vapid bo
+1 entitled committing ta lit benefit blunt incompetent noted kingdom performer potentially alternate tobey fantasies urge sensational instinct conscious presenting sweeping balanced funeral ignorant hybrid difficulty daniels affected choreography gentle dresses
+2 smooth fatal assassination franco jaded senses heartbreaking wrath employed pale buying resolved unbearable madison dicaprio lips lara apollo strangers touched policeman considerably paranoid choosing precisely property hemingway warren portion benefits
+3 interests phenomenon engage challenged elderly highway benefits ticket renee elisha drawing eager praised crucial conflicts harrelson crosses shared active literature threatens omen reflect tripe solution promised prejudice crass vague closet
+4 destroys surviving warren breasts complications phenomenon hack benefit closed winds nominee yawn darn sanity swimming silliness winslet suave insults dame smash phenomena o'connor invites hilariously electric cunning expressed venture leonardo
+
+risultati topic VAE + RNN dt= 5, batch_size = 10, ds=imdb, vocab_size=3k, epochis = 3
+0 orphanage pleasantville rec nemo spencer fellowship nun bates hannah domestic ruth brooke stopping jar barnes vigilante diary lincoln ruffalo layer shift define commitment insipid mulder witherspoon acquired bible demanding predictably
+1 briony peppy hellraiser garrett marley britt ledger legion undead troopers tobacco heder interact deserted rendition besson spine insults shenanigans designer addict residents connor buff unexpectedly landmark dumbo compassion spiritual eugene
+2 briefly shortly indulgent masterpieces undeniably likewise stranded huh alcoholic proving credited section joined tremendously priceless existed syndrome invited threatens mixture hugely hitler rolled stevens enjoys threatened precisely explicit nostalgic aggressive
+3 neverland lunatic greenberg shelly allison siege reflect nemesis biography trier seductive leigh identical cliff trainer geoffrey hamilton favorites likewise pitiful tolerable motel indifferent composer spring skilled baked dolls visiting bradley
+4 dixon stanwyck madeleine scattered marilyn vanilla lunatic soccer pyramid caruso clayton vigilante tolerable carrell brooklyn framed norah monica ping wells dillon crashing danielle displaying ultraviolet collateral pleasence terrence potentially grinch
+
+risultati topic VAE + RNN dt= 5, batch_size = 50, ds=imdb, vocab_size=2k, epochis = 3
+0 sounded isolated hideous approaches obligatory miserably firstly mediocrity pierce wisdom breakdown nolte comfort bathroom metal colours wardrobe independence harmless assault ominous minimum pseudo lone clumsy naomi expense headache stayed attitudes
+1 violet kline nemo chan salander admits disc deceased carl melanie biting rudd dinosaurs aesthetic romeo blatant leg differently illness troopers swear characterization tower sums phantom recognition hellraiser kitchen lone katie
+2 sincere infected adrian apocalypse helicopter ya sings meat gods kurosawa divorced messed package grabs heartbreaking alert tower challenged butt devices chain squad mundane bombs deleted gregory despair inability labyrinth noticeable
+3 indy jurassic japan zoo freddie theo expectation irons costner sport unwatchable resume acclaimed memento cg pages rented aim tech octopus boasts joins achieves rudd stark grey phenomenal shady thunder mo
+4 clouseau palmer boogeyman damme strengths possess noah screens confidence command paxton dentist juliette static recognized lab battlefield isolated leap banner irrelevant lieutenant pounds scripted labyrinth chocolate viewings abysmal infected amateur
+
+risultati topic VAE + RNN dt= 5, batch_size = 50, ds=imdb, vocab_size=5k, epochis = 3
+0 quarantine kristin duties elevates solving mining excellence pains grieving recruits eisenberg noticing streak twin breathless nic nemo emphasize twins python signed margot pumped swinging races collaboration invisible elevator camps retrieve
+1 reportedly opposing squeeze trusted asia partying chocolate chess additionally joining sara gruff crank benny fargo existential listened preceding judged merciless hughes adequately blades perry claiming farrow drugged motive ripe critters
+2 enormous wholly differences irrelevant amateur dalton strongest seed rebellious crammed windows lana recreate represent monaghan spice semi update isolation buscemi asset signed butt designs reluctant cartoonish pub strangers flamboyant messed
+3 pointed plague shoes surviving associate pattern judgement ethan motive trains downs compliment pros harm predicament loaded spells stripper collins identical china ping midst hangover poverty grudge cities advances joey recovering
+4 charlene avoiding melting piranha cenobites seriousness inch creep ashton attendant ofelia spit bridget shootout olympus assist legitimate altman heels subsequently hokey cotillard thou rusty rewind communist downtown primitive chewing vein
+
+risultati topic VAE + RNN dt= 5, batch_size = 50, ds=yelp, vocab_size=3k, epochis = 3
+0 fundido article shipping dumpling stole satay drowned rosati chopsticks salesperson hamachi therapist fights enticing overflowing divey showers mo di michigan danny chimi smack explore mai knots tank polished entertained firehouse
+1 kiosk prickly blossom nuggets scattered overrated fyi warmed bumper ole mojitos hottest brat croissant excuses posh gesture spiced appalled active packaging roka pubs mama condiment displayed seasonings laser relish atop
+2 peruvian utter alignment smash ufc cough legal hub mimi benches boston navajo counters jeff taps arts poop records distracting cobb handmade conscious shells fabric mayonnaise notified breasts pa drool papaya
+3 marquee drinkers stink sliding heather quest spoons ceremony sorta beaten plug blackberry decadent depth slightest jesus louis mekong conscious handing bouncer generously miller unsure elderly macadamia brewing records oreo opens
+4 boiled understood fyi merchandise mex converted rotating slider beet delayed backyard recipes mash cibo snobby dangerous bird courtesy peter bulk signing existent premises mobile songs rabbit kung healthier payment burning
+
+risultati topic VAE + RNN dt= 5, batch_size = 50, ds=yelp, vocab_size=3k, epochis = 3
+0 upbeat refried genius preparation independent heaters greeting guessing sunny hamburgers port monkey levels jim olds macadamia draw pricy ideal goodbye taught television dug reference survive facial patronize poster thirty frys
+1 celery caring ounce herb minimal crusted cap shock exist organization pickled throat miserable plane river stunning suspect mouths hockey gum timing updating msg childhood neighbors mass curds meetings makeup hippies
+2 dangerous december laughed slowly fyi baklava enormous sparse drives thicker reached sheet hilarious handmade hopping lab purses encounter blows smashed mole biggie indie wound sunset continues remodel brewed cork holes
+3 banh melon gary toffee roadhouse innovative leak yrs fate race feast focused electronic navajo pitas h. aisle fairness stream overflowing fails horseradish chosen disorganized pointing practices error outfits anthem soooooo
+4 celery fruits compliment locker piled hilarious katsu imported sourdough flip spilled sorbet coat mildly advertise mani stumbled tube instant grande hesitate rub appearance proof michigan portland sons miserable scam marketing
+
+risultati topic VAE + RNN dt= 5, batch_size = 25, ds=yelp, vocab_size=3k, epochis = 3
+0 pitchers critical taps born bucket grateful respond spoken signage chi reception skewers appearance sketchy ounce groceries embarrassing partake defiantly moms stylist updating enormous skimpy cities cenpho spare colorado grape nursery
+1 bc shaking experiencing firm genius award statement convince conditioning asshole mai vacuum ringing pistachio drafts fairness turf pears task guessed dissapointed depends hr overhead artists crammed hashbrowns floating trio manners
+2 addictive communicate ashamed airports pears relief significant colleagues calzones arrangement defense lab lowe connecting wicked porter teenage outdoors avid trap criticism spinato mrs advertise candle leak furnishings succulent stolen hazelnut
+3 masala lunchtime loss losing tail opens yikes slowly attending pricy insult closet faced rule colorful bull alive ahwatukee bear smiled gifts seemingly er inattentive i.e. complimented payment kool dislike hundred
+4 raving cater facebook homey sexy chances artwork cracker blows breaking glance swimming yellowtail refried ceilings exist procedure hmm ruin warranty led smiles guitar horrid timing pistachio garnish hook reviewing gooey
+
+
+risultati topic VAE + RNN dt= 5, batch_size = 50, ds=yelp, vocab_size=2k, epochis = 3
+0 yell mornings huh unexpected delivers candles underwhelming button grape drunken error choosing franchise pregnant operated spray superior elevator steam sans engaging performance plays flow related carolina crackers nutella attend spotty
+1 versus ownership pastor sucker creepy useless estimate pricy loads questioned directions vast existent letter bench fear nutella percent unexpected pathetic infused fits celebration laying cobbler reheated farmer slammed fuel shitty
+2 containers river facebook chops prep channel posters shea returns argued ease ahwatukee dedicated status choosing someday boxed hipsters hilton combos courtesy aid subpar plant raving scenery flower shopper sonoran unbelievable
+3 huh encourage truth drenched pushing snow companies lean alike smiled cranberry bleu patients depends sells almonds shady answers bones scary ivy maker stickers dripping series featured rewards village importantly expired
+4 surprising unbelievable balanced bones staples gras clam blossom epic tear stations network towners doctors instantly dug humble sharp excitement wishing pairing berry shoot passable clinic picnic drinker alive supermarket waits
+
+risultati topic VAE + RNN dt= 5, batch_size = 50, ds=yelp, vocab_size=5k, epochis = 3
+0 johnson butterflies captain escargot dietary bark essence spain evident packet adam beau periods trusted scallions temperatures drastically bruchetta yards midtown sublime buddha locale spider buttercream e.g. petite territory volunteers vets
+1 fyi loaf sooner directed incident corrected bizarre winning freshness lighter diced stations sweat dragged label misses daughters counters crawl sauteed imagined trend micro expectation tile teachers fig lamp einstein ratio
+2 tanzy communal forest framed savor interestingly tia sewer bubbles birth cordial pronounce michaels pots slimy madness flare pv getaway ripoff wee sprite gouda clarify tenants techniques lengthy germany versions couscous
+3 sandwhiches pads manufacturer summers johnson pseudo shortcake improv rubio monarch homework loan roller sonora spilling grandpa raising lentils infection e.g. apricot varies communal requesting london nursery hoagie foccacia pans imagined
+4 roberto havana tammie recession nicole summers brandon disney starwood labeled coyotes thereof pretended peruse boiling nephew specialist stacy greedy bruchetta challenged straws doused singer chandeliers mekong weirdest nj pete specifics
