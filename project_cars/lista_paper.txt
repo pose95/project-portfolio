@@ -1,0 +1,22 @@
+paper per il progetto 
+
+EDA:
+https://towardsdatascience.com/how-to-do-an-eda-for-time-series-cbb92b3b1913 (fatto)
+
+https://medium.com/analytics-vidhya/how-to-guide-on-exploratory-data-analysis-for-time-series-data-34250ff1d04f (fatto)
+
+https://www.kaggle.com/code/kanncaa1/time-series-prediction-tutorial-with-eda
+
+primo link:
+1. heatmap compared location against time 
+2. watch if there are trends and seasonality
+3 autocorrelation function
+
+secondo link:
+1. describe accurately the problem that we want to solve
+2. analyze the dataframe by plot, counting plot to see if there are missing values, or the count for the different time(year,month,daily)
+3. ask question to your data based on the problem (for example if we want to forecast the sales we could check if there are pattern or seasonality in the past sales)
+
+terzo link:
+is more practical example in how do an eda.
+summarize we need to plot and undestand our data before using the differents model
