@@ -1,0 +1,109 @@
+The application of opinion mining and sentiment
+analysis (OMSA) in the era of big data have been used a useful way in categorizing the opinion into different
+sentiment and in general evaluating the mood of the public. Moreover, different techniques of OMSA have
+been developed over the years in different data sets and applied to various experimental settings.
+
+@article{shayaa2018sentiment,
+  title={Sentiment analysis of big data: methods, applications, and open challenges},
+  author={Shayaa, Shahid and Jaafar, Noor Ismawati and Bahri, Shamshul and Sulaiman, Ainin and Wai, Phoong Seuk and Chung, Yeong Wai and Piprani, Arsalan Zahid and Al-Garadi, Mohammed Ali},
+  journal={Ieee Access},
+  volume={6},
+  pages={37807--37827},
+  year={2018},
+  publisher={IEEE}
+}
+
+research on sentiment analysis has
+focused on multiple modalities such as in speech and video
+as opposed to earlier work that focused on unimodality
+related to text [27], [28]. Sentiment analysis tackles many
+NLP subtasks, including aspect extraction [29], subjectivity detection [30], named entity recognition, and sarcasm
+detection [31].
+In most cases, the main objective of sentiment analysis is
+to unearth people’s opinions to gain meaningful insight about
+products or services. Its aim is to exhibit useful information to
+both customers and manufacturers. It is established that both
+manufacturer and customers look upon summarized opinions
+instead of detailed reviews. 
+
+Sentiment Analysis can be considered a classification process
+There are three main classification levels in SA: document-level, sentence-level, and aspect-level SA. Document-level SA aims to classify an opinion document as expressing a positive or negative opinion or sentiment. 
+It considers the whole document a basic information unit (talking about one topic).
+Sentence-level SA aims to classify sentiment expressed in each sentence. The first step is to identify whether the sentence is subjective or objective.
+If the sentence is subjective, Sentence-level SA will determine whether the sentence expresses positive or negative opinions.
+Classifying text at the document level or at the sentence level does not provide the necessary detail needed opinions on all aspects of the entity which is needed in many applications, to obtain these details;
+we need to go to the aspect level. 
+Aspect-level SA aims to classify the sentiment with respect to the specific aspects of entities.
+The main sources of data are from the product reviews. These reviews are important to the business holders as they can take business decisions according to the analysis results of users’ opinions about their products. 
+The reviews sources are mainly review sites. SA is not only applied on product reviews but can also be applied on stock markets [4], [5], news articles, [6] or political debates [7]. 
+
+
+@article{MEDHAT20141093,
+title = {Sentiment analysis algorithms and applications: A survey},
+journal = {Ain Shams Engineering Journal},
+volume = {5},
+number = {4},
+pages = {1093-1113},
+year = {2014},
+issn = {2090-4479},
+doi = {https://doi.org/10.1016/j.asej.2014.04.011},
+url = {https://www.sciencedirect.com/science/article/pii/S2090447914000550},
+author = {Walaa Medhat and Ahmed Hassan and Hoda Korashy},
+keywords = {Sentiment analysis, Sentiment classification, Feature selection, Emotion detection, Transfer learning, Building resources},
+abstract = {Sentiment Analysis (SA) is an ongoing field of research in text mining field. SA is the computational treatment of opinions, sentiments and subjectivity of text. This survey paper tackles a comprehensive overview of the last update in this field. Many recently proposed algorithms' enhancements and various SA applications are investigated and presented briefly in this survey. These articles are categorized according to their contributions in the various SA techniques. The related fields to SA (transfer learning, emotion detection, and building resources) that attracted researchers recently are discussed. The main target of this survey is to give nearly full image of SA techniques and the related fields with brief details. The main contributions of this paper include the sophisticated categorizations of a large number of recent articles and the illustration of the recent trend of research in the sentiment analysis and its related areas.}
+}
+
+Because of the complexity of the problem (underlying concepts, expressions in
+text, etc.), Sentiment Analysis encompasses several separate tasks. These are usually combined to produce some knowledge about the opinions found in text. 
+The first task is sentiment or opinion detection, which may be viewed as
+classification of text as objective or subjective. Usually opinion detection is based
+on the examination of adjectives in sentences
+The second task is that of polarity classification. Given an opinionated piece
+of text, the goal is to classify the opinion as falling under one of two opposing
+sentiment polarities, or locate its position on the continuum between these two
+polarities (Pang and Lee, 2008).
+To distinguish between different mixtures of the two opposites, polarity classification uses a multi-point scale (such as the number of stars for a movie review).
+This is where the task becomes a multi-class text categorization problem. But unlike the topic-based multi-class classification problems where vocabularies differ
+for each class (or overlap slightly), the vocabularies for positive, neutral, and negative classes can be very much alike, and differ only in few crucial words.
+@article{mejova2009sentiment,
+  title={Sentiment analysis: An overview},
+  author={Mejova, Yelena},
+  journal={University of Iowa, Computer Science Department},
+  year={2009}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sentiment analysis is to consider if a document or a sentence have an emotional sentiment, usually we divide this sentiment in positive, neutral or negative.
+In practice we can use that information to various scope, such as, see the satisfaction of a customer, see the emotion in the social network posts about one particularly argument, or we can use the sentiment analysis to improve the internal process in a company.
+In the recent years the developing algorithm aims to associate a lot of differents emotions such as: angry, happy, sad, urgent or not urgent, etc.
+In our work as in the Topic detection we used a document-level approach, in the classification part we used a word-level approach, in which we not predict any precise sentiment but we use the Sentiments methods to capture the sentiment information for every label in our dataset. This information is sent to the topic parts and vice versa.
+\cite{9112648}Sentiment classification can be solved by supervised statistical learning models \cite{pang-etal-2002-thumbs}, \cite{wang-manning-2012-baselines}, \cite{8267597}.
+Traditional feature-engineering based sentiment classification models usually focus on extracting efficient features including lexical features \cite{wang-manning-2012-baselines}, topic-based
+features \cite{10.1145/1645953.1646003} and ontology-based features \cite{5339128}. With the rapid
+development of deep learning, NN based models have shown
+promising performance on sentiment classification. Various
+architectures of neural networks including Convolution Neural Network (CNN) \cite{kim2014convolutional} and Recurrent Neural Network
+(RNN) \cite{graves2014generating} have been proposed for sentiment classification.
+In document-level sentiment classification, the hierarchical
+semantic composition of a document can be modeled by hierarchical models such as the Gated Recurrent Neural Network
+\cite{tang-etal-2015-document} and the Hierarchical Attention Network \cite{yang-etal-2016-hierarchical}. More
+recently, training neural networks with large-scale pre-trained
+word embeddings gives significantly improvements in text
+classification \cite{peters2018deep}, \cite{devlin2019bert}.
+Based on  this consideration we used RNN\cite{graves2014generating} and  BERT\cite{devlin2019bert}.

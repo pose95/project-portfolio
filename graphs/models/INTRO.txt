@@ -1,0 +1,6 @@
+https://www.google.com/search?q=bert-base-uncased&oq=bert-&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQABgeMgYICBAAGB4yBggJEAAYHtIBCDQxOThqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+
+nell'introduzione:cosa sono gli LVM specificatamente nella parte di topic detection ho inserito dove scriverlo
+
+

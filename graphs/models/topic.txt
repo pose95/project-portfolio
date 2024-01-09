@@ -1,0 +1,183 @@
+imdb topic dirVae 
+0 naomi warmth controlled generous idiots fragile vulnerable humble weather kidding fired official reward damaged hostile vivid reflect showdown lowest weaker ensues celebrity tourist dumped riot sensation romp enthusiastic investigating ease
+1 lancaster illusion spaceship quote satisfied morbid wasting forcing pops hogan shoddy principal outing lackluster slimy interaction breathing controlled philosophical sales uh depicting stunned unbelievably sheep trap hating remained enjoys masterpieces
+2 fix threatens francis tea abusive bull mouse performing monica supreme crouching nun checking gentleman rejected jerk stamp energetic reaching kiefer array subtitles emmerich suburban mini dafoe vaguely achieves communist walsh
+3 opus corey ping dicaprio yun literature havilland luc landing monica cujo politicians hewitt contract rightly global theo burke developments rap overlooked poker conquer mentions enthusiastic disagree distract eleven molly griffith
+4 astaire philadelphia mendes avenge sergio barnes egyptian hoover coburn claudia dumbo laws official pesci buying swearing swarm flair napoleon widely minus july donna sentimentality surround shelley antagonist shake investigator splatter
+
+imdb VAE + RNN 3k
+Epoch 2
+2023-11-14 18:22:20
+clf_loss:2.1559 clf_acc:0.1783
+
+True : 8         Predicted : 7
+nll_term KLD l1p loss
+
+109.8746 0.0033 0.0000 109.8779  
+Saving model
+The best acc = 0.178
+The best dev bound = inf
+The best cv = 0.000 
+time: 1h 25 min
+0 clayton wilberforce imagining kings binoche cassandra cobra goers atonement dignity crass debra jurassic blunt employed melting relations gambon balanced commander liotta inspire blues peaceful motive poltergeist establish foremost unseen e.g.
+1 clone primary web desires mentor stranded macho mason confrontation preposterous crosses pedestrian hopeless description responsibility stellar senior rented kidnaps fantasies lone marisa smooth resembles incoherent challenged chaney surviving banner juliette
+2 tortured discovering description smarter complaints entity coffee internal pretending flies benefit sufficient screwed mcconaughey demise trap frustrating contest healthy kidnapping framed conviction visits speeches pushed recorded grandmother themed bonus defeat
+3 joins endure connelly pretending resolution description disjointed campaign landmark yelling excess drawing melissa dafoe befriends lay astounding stylized temple faster cheer lyrics noteworthy disappearance doomed performs favour benefit worried tendency
+4 vague ridley explode robbed phenomenal flies dreamworks titled tie harmless sarandon unexplained accomplished subsequently beats elegant stinker folk eventual salvage urge reactions bare seal rear epics rude suspension rockwell biblical
+
+imdb VAE + RNN 2k
+Epoch 2
+2023-11-15 14:13:15
+clf_loss:2.2078 clf_acc:0.1564
+
+True : 8         Predicted : 6
+nll_term KLD l1p loss
+
+109.9693 0.0028 0.0000 109.9721
+time(h) 1h 20 min
+Saving model
+The best acc = 0.156
+The best dev bound = inf
+The best cv = 0.000
+0 buying comfortable official embrace eternal satisfy deny stern receives christ widescreen parties venture unlikable resulting persons expense coupled tortured motions robinson symbolism millennium jenna landscape discuss deer creators exposed nielsen
+1 boll milla lindsay goodfellas catching trend policeman desired krueger drawing subtly insurance prejudice chamber phony relentless christensen huh slip atonement spring stu bonnie showcase wisdom ape warn dreamworks staying dirt
+2 mick lolita irving blew cg annette therapy scully heston greg hides reeve boasts witches urge bonus producing wasting spare education salander rolled threw weakness expanded dreamworks jovovich gods depicting troubles
+3 adolescent guards deserving philosophy population apocalypse subsequently hire scripts suitably strictly triangle ominous dumped senator definition glorious crossing concern shyamalan basement spark clumsy widow wipe jealous lily roller complain characteristics
+4 rec circus khan orphanage duck bening noon hunted mick stalking crouching shifts stu stranded dedicated influenced rebecca dylan motions vile counter tina investigating damme comparisons valuable groundbreaking casts satan tourist
+
+imdb VAE + RNN 5k
+Epoch 2
+2023-11-15 18:14:00
+clf_loss:2.1086 clf_acc:0.1398
+
+True : 6         Predicted : 8
+nll_term KLD l1p loss
+
+285.1177 0.0073 0.0000 285.1251
+
+The best acc = 0.147
+The best dev bound = inf
+The best cv = 0.000
+0 edition lancaster sunday amusement recommendation jules canada destined wasting button advertising performer payoff geeky thugs echoes developments symbol function eternity reagan warren generations stellan sharing consistency secure opportunities glen glamour
+1 uncut claudia immense trials reitman fanatic scully improvised medicine cobra beth steer hicks pfeiffer chamber rick glimpses falcon corn meal joey bernie bros wagon predators anxiety promptly cemetery hart labeled
+2 cenobites meadows brolin porter officials meredith nemo loveless bafta continuous understandably theo almighty switched italy studying lana rebellion horrified rescued scooby lunar butcher charade sand neatly napoleon fools detectives listened
+3 daphne lori burroughs achievements hopper korea collar studying herbert scully ritual occurrences pad awareness agenda jolson glenn madman grandson nora peoples rex downfall prank shed yoda deservedly newer irreverent clueless
+4 lotr moses scottie rickman mae counted elvis defy graveyard wash pekar h20 mutated spit lupino sane espionage defending evocative relaxed muppets monaghan charade quinn tango concludes du erin models sweat
+
+imdb VAE + BERT 3k
+
+Epoch 2
+2023-11-16 13:23:26
+clf_loss:2.3015 clf_acc:0.0513
+
+True : 0         Predicted : 3
+nll_term KLD l1p loss
+
+61.0088 0.0017 0.0000 61.0105
+
+The best acc = 0.051
+The best dev bound = inf
+The best cv = 0.000
+0 demise racial inevitably colour clones trend shouting arizona preferred exchange fuel relative frozen comfortable cup spree integrity surgery stuart respects riding bombs catholic tech homer rick keanu pat transition trashy
+1 zuckerberg lunatic broadcast cowboy wisdom pattinson asia bees rightly norah spiritual homer latifah runaway dale reached masters arnie jenna flimsy admired collins illusion jill excels teams trees coincidence ripping tracks
+2 dumbo hansel wolverine micheal banner civilization norah metropolis barrie lara rural puppet witherspoon domino bening hughes counting lumet morons quinn passage maximum dillon noon jews crossed interrupted understandable earl homeless
+3 maher management russians nic randy mortal worthless dose coma swinton maintaining difficulty nuts gardner jenna yoda rogue rates strict painting posing girlfriends item carrell cursed wealth function reasoning noteworthy considerable
+4 vague titled combine pro commander blank exposed concepts unintentional mundane byrne pal embrace trail pit bombs policeman playboy framed nails address exposure response englund stunt survivor rick curiosity amateurish irrelevant
+
+YELP VAE + BERT 3k
+Epoch 2
+2023-11-16 19:21:04
+clf_loss:1.7592 clf_acc:0.2268
+
+True : 1         Predicted : 4
+nll_term KLD l1p loss
+
+60.6897 0.0020 0.0000 60.6917
+
+The best acc = 0.227
+The best dev bound = inf
+The best cv = 0.000
+0 hamachi scooter tiffany identify wich doughnuts dusty smelly renovation intrigued chemical steel surprises race essence misses raise parent tiki handing stepping safety johnny gabi disturbing sole friendliest aroma relatives enthusiastic
+1 breath signage painted ownership nature exterior cancelled definite barrio texting died mildly bear highest norm related warmly cappuccino citrus bliss hmm force upside medical carrying filibertos pinch compliment lite loudly
+2 prawns mekong pong adovada kelly bin steakhouses chaotic leading delights marquee wal tim cleaners rula coffees specially beg birthdays mug hardware eyebrows alterations overlooked pairs utter deluxe flower determined noir
+3 gorgonzola effect joy concerns greeting stays levels ethnic spare stress stunning surroundings praise outlet junk yr oddly lap fruity needing cheesesteak artists stumbled nap holidays kona horrid refuse culture grimaldi
+4 kudos cleared death grain mimosa skeptical sirloin path trio thomas carolina buffets signage skimpy dives session occupied smiled spaces filibertos braised versus retro cactus boiled cracker hmm thousand blew providing
+
+YELP VAE + RNN 2K 
+
+Epoch 2
+2023-11-21 18:33:09
+clf_loss:1.6148 clf_acc:0.2268
+
+True : 3         Predicted : 4
+nll_term KLD l1p loss
+
+0.7701 0.0000 0.0000 0.7701
+
+The best acc = 0.227
+The best dev bound = inf
+The best cv = 0.000
+0 displayed sweeter paste performance inches argued kim cotton organization annual hotdog thousand niece mai royal trick separately instance drawn lied crammed argue plane tile compete brownies tastier village quit bikes
+1 eve sketchy saturdays kierland flew norm fortunately chowder freakin equal retro ear decently n. pets film blonde oriented bills google gooey existent kindly border glaze boa mass village distracted hashbrowns
+2 flo toe prevent gates hopping closet posh ranging produced snap award neighbor friggin incident embarrassed percent hippies toffee tavern material converted scott dealer rose warehouse backyard shampoo acts brian skimpy
+3 searched coach hubs praise delivers wheel gringo poached ceilings gripe sweeter gorgonzola iphone catfish ummm opposed supermarket instantly chatted pastas bat thousands beloved array cigar tools bikes genuine whiskey vs.
+4 led masala eve confirm ribeye greatly finest jason cibo tube engine royal married beats ounce press stairs juices bump dull limit supplies healthier nuggets condiment discussed creepy spiced drunken loving
+
+YELP VAE + RNN 3K
+Epoch 2
+2023-11-22 03:28:53
+clf_loss:1.6305 clf_acc:0.2267
+
+True : 2         Predicted : 4
+nll_term KLD l1p loss
+
+9.6252 0.0005 0.0000 9.6257
+
+The best acc = 0.227
+The best dev bound = inf
+The best cv = 0.000
+0 execution gigantic limit bird downright dealing extras accompanied outdoors sand thoughtful apparent beauty fro merchandise tempted outing shopped houston officially resist uncle mildly discuss skimp connecting subpar swing arrives weekdays
+1 greatly unpleasant companies sand draw meatloaf drenched kindly puffs alcoholic facilities advise jelly thoughts fortunately trio receiving dime silver preparation quest pecans responded path woke sophisticated cravings causing turf poached
+2 sheraton rula sakana stinks hefty swanky benefits pancetta porch stream busier woo february teeny chewing horrid blank disagree wheels prawns kiosk renovated succulent sheet eggroll spam gray clock residents washing
+3 beauty featured automatically activities purchasing bones mellow songs strictly napkin diced creation attempted claimed colleagues bump pulling shout stairs stamp strangely cauliflower squeezed preface require mojitos printed canyon arms mistakes
+4 peruse scooter exhausted profile cantina crossed novelty rise assigned nacho rocket salesperson surly marg blaring clearing gritty sunnyslope sunglasses greeter pairing binkley altogether wheels wildflower mastro thousand yucky pong annual
+
+YELP VAE + RNN 5K 
+Epoch 2
+2023-11-22 14:14:26
+clf_loss:1.6096 clf_acc:0.2268
+
+True : 1         Predicted : 4
+nll_term KLD l1p loss
+18.0065 0.0001 0.0000 18.0066
+
+Saving model
+The best acc = 0.227
+The best dev bound = inf
+The best cv = 0.000
+0 bulbs michelle hookah haven avondale lucked flood tabs melty bashas papaya cenpho turkish couscous clarify caribbean sierra forty showers motorcycle mechanical bolognese rita bum hangs requesting cherries compensate accents shwarma
+1 storefront hooray tuscan inevitably isle chilis marshmallows urine shave packing rubio grossed peppermint sprite attentiveness blond yada apache bearable snapped absent concierge kay rubbing whore judgement plated prison ms untouched
+2 select fajita attempted meatloaf watering remodel carte spare arrives rainbow attend master dense houses rang heated combined digging cornish downfall cleared understanding plane statement accessible laundry guessing bear officially palatable
+3 bertha cooper tabasco drunks mandarin moron plugs snarky toaster political saltiness remake consultation corral brakes hush understatement dumpster cacti adams remote chest softball savor sweater miracle pampered maid agents redone
+4 shane firesky interestingly crystal puzzled creole knacks costume bedding botanical glue theory cacti tony laura starbuck fax delightfully trailhead drunks flood diamondbacks population unavailable substandard demographic permission juke instruments mommy
+
+YELP DIRVAE + RNN 
+Epoch 2
+2023-11-23 13:52:50
+clf_loss:1.6074 clf_acc:0.2737
+
+True : 3         Predicted : 4
+nll_term KLD l1p loss
+
+20.3233 0.0001 0.0000 20.3235
+
+Saving model
+The best acc = 0.274
+The best dev bound = inf
+The best cv = 0.000
+0 canceled bocca experiencing austin tomatillo portland baguette shuffle lola almonds blind floating salesperson cottage whites petsmart inconvenient bin glorious traveled cardio instance televisions chemical di computers alterations sweaty marquee position
+1 nom amber lola hosts wander slab sheer scooter answering mama scotch resident dvd islands louis refrigerator tho teach altogether denver saigon paintings gathered sugary favs rim uninspired unappetizing sudden comics
+2 chickens task title tokyo plant flops rocky niche textures coolest brussel warmer sheet vinyl massages progress enjoys carl alike blvd curtains label crusted echo flaming mountains afterward supreme walgreens notable
+3 concoctions televisions inexperienced cast puree touches jewish quarters television capers fil tokyo smelling convention snobs tortas pains housekeeping admitted lid sisters cases michelle smokers grapefruit teenagers snap oreo inappropriate easter
+4 beats nature merchandise hippies paired hundreds eve navigate fluke accompanied link jumping joy cultural thirty jumped flip refilling dill caring fool acts piping stains adventurous touched buttermilk handing genuinely stylish
+

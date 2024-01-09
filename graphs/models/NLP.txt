@@ -1,0 +1,88 @@
+
+
+Definition: Natural Language Processing is a theoretically motivated range of
+computational techniques for analyzing and representing naturally occurring texts
+at one or more levels of linguistic analysis for the purpose of achieving human-like
+language processing for a range of tasks or applications. 
+@article{liddy2001natural,
+  title={Natural language processing},
+  author={Liddy, Elizabeth D},
+  year={2001}
+}
+
+‘For a range of tasks or applications’ points out that NLP is not usually considered a
+goal in and of itself, except perhaps for AI researchers. For others, NLP is the means for
+accomplishing a particular task. Therefore, you have Information Retrieval (IR) systems
+that utilize NLP, as well as Machine Translation (MT), Question-Answering, etc. 
+
+Goal
+The goal of NLP as stated above is “to accomplish human-like language processing”.
+The choice of the word ‘processing’ is very deliberate, and should not be replaced with
+‘understanding’. For although the field of NLP was originally referred to as Natural
+Language Understanding (NLU) in the early days of AI, it is well agreed today that while
+the goal of NLP is true NLU, that goal has not yet been accomplished. A full NLU
+System would be able to:
+1. Paraphrase an input text
+2. Translate the text into another language
+3. Answer questions about the contents of the text
+4. Draw inferences from the text
+
+While NLP has made serious inroads into accomplishing goals 1 to 3, the fact that NLP
+systems cannot, of themselves, draw inferences from text, NLU still remains the goal of
+NLP.
+There are more practical goals for NLP, many related to the particular application for
+which it is being utilized. For example, an NLP-based IR system has the goal of
+providing more precise, complete information in response to a user’s real information
+need. The goal of the NLP system here is to represent the true meaning and intent of the
+user’s query, which can be expressed as naturally in everyday language as if they were
+speaking to a reference librarian. Also, the contents of the documents that are being
+searched will be represented at all their levels of meaning so that a true match between
+need and response can be found, no matter how either are expressed in their surface form. 
+
+Origins 
+As most modern disciplines, the lineage of NLP is indeed mixed, and still today has
+strong emphases by different groups whose backgrounds are more influenced by one or
+another of the disciplines. Key among the contributors to the discipline and practice of
+NLP are: Linguistics - focuses on formal, structural models of language and the
+discovery of language universals - in fact the field of NLP was originally referred to as
+Computational Linguistics; Computer Science - is concerned with developing internal
+representations of data and efficient processing of these structures, and; Cognitive
+Psychology - looks at language usage as a window into human cognitive processes, and
+has the goal of modeling the use of language in a psychologically plausible way. 
+
+Divisions
+While the entire field is referred to as Natural Language Processing, there are in fact two
+distinct focuses – language processing and language generation. The first of these refers
+to the analysis of language for the purpose of producing a meaningful representation,
+while the latter refers to the production of language from a representation. The task of
+Natural Language Processing is equivalent to the role of reader/listener, while the task of
+Natural Language Generation is that of the writer/speaker.
+Another distinction is traditionally made between language understanding and speech
+understanding. Speech understanding starts with, and speech generation ends with, oral
+language and therefore rely on the additional fields of acoustics and phonology. Speech
+understanding focuses on how the ‘sounds’ of language as picked up by the system in the
+form of acoustical waves are transcribed into recognizable morphemes and words. Once
+in this form, the same levels of processing which are utilized on written text are utilized. 
+
+Natural language processing approaches fall roughly into four categories: symbolic,
+statistical, connectionist, and hybrid.
+
+Statistical Approach
+
+Statistical approaches employ various mathematical techniques and often use large text
+corpora to develop approximate generalized models of linguistic phenomena based on
+actual examples of these phenomena provided by the text corpora without adding
+significant linguistic or world knowledge. In contrast to symbolic approaches, statistical
+approaches use observable data as the primary source of evidence.
+A frequently used statistical model is the Hidden Markov Model (HMM) inherited from
+the speech community. HMM is a finite state automaton that has a set of states with
+probabilities attached to transitions between states (34). Although outputs are visible,
+states themselves are not directly observable, thus “hidden” from external observations.
+Each state produces one of the observable outputs with a certain probability.
+Statistical approaches have typically been used in tasks such as speech recognition,
+lexical acquisition, parsing, part-of-speech tagging, collocations, statistical machine
+translation, statistical grammar learning, and so on. 
+
+
+The NLP is the generic task in which the Natural Language it been analysed. in this category are included all the algorithms that aim to analyse, understand and represent the natural language. this can have an infinity possibility in term of real application.
+This real application include for example the translations from a language to another, speech recognition, and information retrieval, this category include understand the topic behind a sentence or the Sentiment.
