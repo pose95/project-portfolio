@@ -1,0 +1,45 @@
+the latent topic distribution for the ith word is represented
+as w0
+i ¼ fwi1; wi2; ... ; wiKg, where K is the total number of
+topics, and the attention vector u0
+i for the ith word is
+obtained from Eq. (4).(RNN part)
+We measure and maximise the similarity between the latent topic distribution of the ith word,
+w0
+i, and its attention vector, u0
+i, during the training
+equazione max min = 1 (8.1)
+is based on cosine similarity measurement
+ In order to
+make w0
+i and u0
+i comparable, we set the dimension of the
+attention vector of u0
+i to be the same as the number of latent
+topics.
+ The optimal object now is to minimise
+the loss function defined in:
+arg min
+u;w0
+i
+;u0
+i
+2V
+X
+d
+ða  LtðwdÞ þ b  LcðwdÞÞ X
+V
+ðOmðw0
+i; u0
+iÞÞÞ;
+where u is the set of parameters in the neural topic model and
+the neural text classification model, 1 
+ m 
+ 4, which stands
+for four different similarity measurements, respectively.
+In each training epoch, we optimise the parameter
+in Eq. (7) iteratively for each minibatch of training instances to
+obtain topic and sentiment representations. Then, we update
+Om defined in Eq. (8) at the end of the current training epoch.
+That is, Eq. (7) is optimised more frequently compared to
+Eq. (8).

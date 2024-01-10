@@ -1,0 +1,114 @@
+1. concetto chiave dirVae 
+DirVAE is able to
+model the multi-modal distribution that was not possible with the
+Gaussian-Softmax and the GEM approaches. These characteristics
+allow DirVAE to be the prior of the discrete latent distribution, as
+the original Dirichlet distribution is.
+
+2. presenta la dirichlet distribution, concetti chiave 
+The Dirichlet distribution is a multivariate generalization of the Beta distribution. It is an important multivariate continuous distribution in probability
+and statistics.
+Definition 2.4.1. Let Y
+k = [Y1, . . . , Yk] be a vector with k components,
+where Yi ≥ 0 for i = 1, 2, . . . , k and Pk
+i=1 Yi = 1. Also, let α
+k = [α1, α2, . . . ,
+αk], where αi > 0 for each i. Then the Dirichlet probability density function
+is
+f(y
+k
+) = Γ(α0)
+Qk
+i=1 Γ(αi)
+Y
+k
+i=1
+y
+αi−1
+i
+,
+where α0 =
+Pk
+i=1 αi
+, yi > 0, y1 + · · · + yk−1 < 1 and yk = 1 − y1 − · · · − yk−1.
+We denote this distribution by Dir(α1, α2, . . . , αk) [34].
+The Dirichlet distribution is a distribution with k positive parameters α
+k
+with respect to a k-dimensional space. We observe that if k = 2, f(y1, y2) is
+a pdf of the Beta distribution with parameters α1 and α2, which is a special
+case. The probability density function of the Dirichlet distribution for k
+random variables is a k − 1 dimensional probability simplex that exists on a
+k dimensional space.
+immagine
+ we plot 1000 points generated from the Dirichlet distribution in a 3-dimensional space with different parameter α
+3 values. When
+0 < α1, α2, α3 < 1, the density congregates at the edges of the simplex. Note
+that in (a) α
+3 = (0.1, 0.1, 0.1), the density congregates to at the edges of the
+triangle. This 2-dimensional simplex represents the sample space of Y1, Y2,
+and Y3 in 3-dimensional space.
+As the value of α
+3
+increases to (1, 1, 1), the density becomes uniformly
+distributed over the triangle. When α1, α2, α3 > 1, the density becomes
+more concentrated on the center of the simplex. This is shown in (c) α
+3 =
+(20, 20, 20). In (d), we note that the density plot is not symmetric as the
+value of α1, α2, α3 are not identical.
+3. perchè abbiamo utilizzato il dirVae 
+because there are cases that the Gaussian-Softmax approaches,
+or the softmax Laplace approximation, cannot imitate the Dirichlet
+distribution; and 2) because the nonparametric approaches could
+be influenced by the biases that the Dirichlet distribution does not
+suffer from
+
+
+The fundamental concept behind the Dirichlet Variational Autoencoder (DirVAE) is closely tied to the Dirichlet distribution, which is a multivariate generalization of the Beta distribution. The Dirichlet distribution represents a multivariate continuous distribution of significant importance in the fields of probability and statistics.
+To better understand the DirVAE, we must first examine the Dirichlet distribution. This distribution is defined by a vector $Y_k$ with $k$ components, each of which is non-negative ($Y_i \geq 0$), and the sum of all components is equal to 1. It is also defined by a vector $\alpha_k$ with $k$ components, each of which is strictly positive. The probability density function of the Dirichlet distribution is given by:
+
+\[
+f(y_k) = \frac{\Gamma(\alpha_0)}{\prod_{i=1}^{k} \Gamma(\alpha_i)} \prod_{i=1}^{k} y_i^{\alpha_i - 1}
+\]
+
+Where $\alpha_0 = \sum_{i=1}^{k} \alpha_i$, $y_i > 0$, $y_1 + \ldots + y_{k-1} < 1$, and $y_k = 1 - y_1 - \ldots - y_{k-1}$. This distribution is denoted as Dir($\alpha_1, \alpha_2, \ldots, \alpha_k$).
+
+It is important to note that the Dirichlet distribution is a distribution with $k$ positive parameters $\alpha_k$ in a $k$-dimensional space. When $k = 2$, the probability density function is analogous to that of the Beta distribution with parameters $\alpha_1$ and $\alpha_2$.
+To better comprehend this distribution, we can visualize 1000 points generated from the Dirichlet distribution in a three-dimensional space with different values of parameter $\alpha_3$. When $\alpha_1$, $\alpha_2$, and $\alpha_3$ are all between 0 and 1, the density clusters around the edges of the simplex. This is observed when $\alpha_3 = (0.1, 0.1, 0.1)$, where the density congregates at the edges of the triangle, representing the sample space of $Y_1$, $Y_2$, and $Y_3$ in three-dimensional space.
+
+However, as the value of $\alpha_3$ increases to (1, 1, 1), the density becomes uniformly distributed across the entire triangle. When $\alpha_1$, $\alpha_2$, and $\alpha_3$ are all greater than 1, the density becomes more concentrated at the center of the simplex, as seen in (c) when $\alpha_3 = (20, 20, 20)$. In (d), we observe that the density plot is not symmetric, as the values of $\alpha_1$, $\alpha_2$, and $\alpha_3$ are not identical.
+
+The Dirichlet Variational Autoencoder (DirVAE) was introduced in response to two specific situations:
+
+1. When Gaussian-Softmax or Softmax Laplace-based approaches fail to mimic the Dirichlet distribution.
+2. When non-parametric approaches may be influenced by biases that the Dirichlet distribution does not suffer from.
+
+In these situations, DirVAE proves to be a valid solution, as it can model multi-modal distributions that cannot be accurately represented by other distributions or approaches. 
+
+In summary, the Dirichlet Variational Autoencoder (DirVAE) is an important innovation based on the fundamental Dirichlet distribution. This model is useful when modeling complex data distributions that cannot be accurately represented by other distributions or approaches. Understanding the Dirichlet distribution and its application in DirVAE is crucial for your research and will represent a significant portion of your thesis.
+
+4. pro e contro 
+Utilizing a Dirichlet distribution as a conjugate prior to a multinomial distribution has an advantage compared to the usage of a
+softmax function on a Gaussian distribution.
+Given the three-dimensional probability simplex, the Gaussian-Softmax distribution cannot generate
+the illustrated case of the Dirichlet distribution with a high probability measure at the vertices of the simplex, i.e. the multi-modality
+where the necessity was emphasized in Hoffman and Johnson [14]
+Additionally, the Griffiths-Engen-McCloskey (GEM) distribution [15], which is the prior distribution of SBVAE, is difficult to
+model the multi-modality because the sampling procedure of the
+GEM distribution is affected by the rich-get-richer phenomenon, so
+a few components tend to dominate the weight of the samples.
+This is different from the Dirichlet distribution that does not exhibit such a phenomenon, and the Dirichlet distribution can fairly
+distribute the weights to the components. Additionally, the Dirichlet distribution is more likely to capture the multi-modality by
+controlling the prior hyper-parameter, which considered to be important in the latent modeling of text
+we argue that Gaussian
+VAE (GVAE) suffers from the decoder weight collapsing, previously
+limitedly defined as component collapsing; and SBVAE has a problem of the latent value collapsing. Finally, we suggest that the definition of component collapsing should be expanded to represent
+both cases of decoder weight and latent value collapsings. The proposed DirVAE shows neither the near-zero decoder weights nor
+the near-zero latent values, so the reconstruction uses the full latent dimension information in most cases.
+
+5. modello dirVae nello specifico 
+già scritto
+
+6. applicazione.
+come lo abbiamo applicato noi 
+
+
