@@ -5,3 +5,4 @@ there are basically four projects:
 2. Car_project: in this project my colleagues and I analyse the effect of CO2 emissions with respect to different types of cars in five European countries over the years.
 3. Project_emojy: This is my first Natural Language Processing project in which we categorise sentiment in different texts through emoji.
 4. Boosting as Franke-Wolfe: is an optimisation project in which my colleagues and I analyse the impact of different Franke-Wolfe algorithms as update rules in boosting algorithms.  
+In all the folders you will find images, codes and a pdf file that can be one or more of the final outputs of my work. 
