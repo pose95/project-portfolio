@@ -1,7 +1,0 @@
-                                                               #### project ###
-
-TITLE: Effects of CO2 Emissions on the purchase of cars
-
-problem: we decided to analyse the effect of CO2 emissions in the car purchase market.
-We want to try to understand whether data on greenhouse gas emissions, and the resulting climate change, can influence people's purchasing choices.
-Once we understand whether there is a relationship between the two, we want to try to predict future purchases using analysis models.	  
